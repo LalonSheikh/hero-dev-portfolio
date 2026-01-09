@@ -22,11 +22,16 @@
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 /* main styke */
 header {
   background-color: #fff8f3;
   padding-top: 50px;
+  background: url("../images/developer.png"), url("../images/header_bg.png"),
+    #fff8f3;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 nav {
   width: 71%;
@@ -45,4 +50,36 @@ nav .menu a {
   font-size: 20px;
   color: #474747;
   text-decoration: none;
+}
+.banner {
+  /* border: 1px solid red; */
+  margin: 46px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  max-width: 660px;
+}
+.banner-content h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.banner-content h1 {
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 33px;
+}
+.banner-image img {
+  max-width: 585px;
+  vertical-align: middle;
 }
